@@ -8,6 +8,7 @@ public class sumof1darray {
     for(int i = 0; i < nums.length; i++){
         runningSum = runningSum + nums[i];
         ans[i] = runningSum;
+      
     }
     System.out.print(Arrays.toString(ans));
 
