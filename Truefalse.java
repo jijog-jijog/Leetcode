@@ -1,6 +1,6 @@
 public class Truefalse {
     public static void main(String[] args) {
-        int [] candies = {2,3,5,1,3};
+        int [] candies = {4,2,1,1,2};
         int [] newarr = new int[candies.length];
         boolean [] setarr = new boolean[candies.length];
         int extraCandies = 10;
