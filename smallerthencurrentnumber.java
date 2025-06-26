@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 
 public class smallerthencurrentnumber {
     public static void main(String[] args) {
-        int [] nums = {7,7,7,7};
+        int [] nums = {8,1,2,2,3};
         int [] arr = new int[nums.length];
 
     
