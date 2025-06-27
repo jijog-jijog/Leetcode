@@ -19,5 +19,12 @@ public class oddvalueopti {
             row[index[0]]++;
             col[index[1]]++;
         }
+        int [][] matrix = new int[indices.length][];
+        for(int i=)
+
+    for(int a : col){
+        System.out.println(a);
     }
+    
+}
 }
