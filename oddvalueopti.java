@@ -17,6 +17,9 @@ public class oddvalueopti {
             row[a[0]] += 1;
             column[a[1]] += 1;
         }
+        for(int i =0; i<m; i++){
+            
+        }
 
 }
 }
