@@ -10,26 +10,8 @@ public class oddvalueopti {
             {1, 1}
         };
 
-        // Step 1: Create row and column counters
-        int[] row = new int[m];
-        int[] col = new int[n];
-
-        // Step 2: For each operation, increment corresponding row and column
-        for (int[] index : indices) {
-            row[index[0]]++;
-            col[index[1]]++;
-            System.out.print(row[index[0]]);
-            System.out.println();
-            System.out.println();
-            // System.out.print(col[index[1]]);
-        }
-        int [][] matrix = new int[indices.length][];
-        // for(int i=)
-        System.out.println();
-        System.out.println();
-    // for(int a : col){
-    //     System.out.println(a);
-    // }
+        
+   
     
 }
 }
