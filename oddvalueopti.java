@@ -10,7 +10,13 @@ public class oddvalueopti {
             {1, 1}
         };
 
-        
+        int [] row = new int[m];
+        int [] column = new int[n];
+
+        for(int a[] : indices){
+            row[a[0]] += 1;
+            column[a[1]] += 1;
+        }
 
 }
 }
