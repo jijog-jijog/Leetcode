@@ -21,7 +21,7 @@ public class oddvalueopti {
         for(int i =0; i<m; i++){
             for(int j=0; j<n; j++){
                 int rowee = row[i] + column[j];
-                if (rowee %2 == 0) {
+                if (rowee %2 != 0) {
                     count++;
                 }
             }
