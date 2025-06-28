@@ -10,5 +10,7 @@ public class oddvalueopti {
             {1, 1}
         };
 
+        
+
 }
 }
