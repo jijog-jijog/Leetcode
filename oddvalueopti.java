@@ -27,9 +27,9 @@ public class oddvalueopti {
         // for(int i=)
         System.out.println();
         System.out.println();
-    for(int a : col){
-        System.out.println(a);
-    }
+    // for(int a : col){
+    //     System.out.println(a);
+    // }
     
 }
 }
