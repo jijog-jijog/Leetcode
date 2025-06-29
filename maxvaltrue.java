@@ -4,9 +4,9 @@ public class maxvaltrue {
 
     public static void main(String[] args) {
         int[] candies = {2, 3, 5, 1, 3};
-        int extraCandies = 3;
+        // int extraCandies = 3;
 
-        List<Boolean> setc = new ArrayList<>(Collections.nCopies(candies.length, false));
+        // List<Boolean> setc = new ArrayList<>(Collections.nCopies(candies.length, false));
 
         // Step 1: Find the maximum in the original array
         int max = candies[0];
