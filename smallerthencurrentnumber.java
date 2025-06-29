@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class smallerthencurrentnumber {
     public static void main(String[] args) {
         int [] nums = {8,1,2,2,3};
