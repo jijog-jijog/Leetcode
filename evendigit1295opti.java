@@ -12,6 +12,10 @@ public class evendigit1295opti {
                 a = a/10;
             }
 
+            if ((value % 2 == 0)) {
+                count++;
+            }
+
             // if(digitcount % 2 == 0){
             //     count++;
             // }
