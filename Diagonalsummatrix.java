@@ -3,7 +3,7 @@ public class Diagonalsummatrix {
         int [][] mat = {{1,2,3},
                         {4,5,6},
                         {7,8,9}};
-        int [] all = new int[mat.length*3];
+       
         
         int sum1 = 0;
         int sum2 = 0;
