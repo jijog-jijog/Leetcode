@@ -18,12 +18,11 @@ public class marix90rotation1886 {
             for(int k =0; k<mat.length; k++){
             for(int j=0; j<mat[i].length; j++){
                   
-
-        //        if ( mat[i][j] != target[i][j]) return false;
             }
             }
         }
         }
+    }
         
         
     return true;
@@ -31,4 +30,4 @@ public class marix90rotation1886 {
        
     }
     
- 
+}
