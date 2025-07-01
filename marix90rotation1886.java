@@ -14,11 +14,11 @@ public class marix90rotation1886 {
         res = (mat.length != target.length || mat[0].length != target.length) ? false : res;
         // break;
 
-        for(int k =0; k<mat.length; k++){
-        for(int j=0; j<mat[i].length; j++){
-                  System.out.println();
-            }
-            }
+        // for(int k =0; k<n; k++){
+        // for(int j=0; j<mat[i].length; j++){
+                 
+        //     }
+        //     }
         }
         
     return res;
