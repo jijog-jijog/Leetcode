@@ -12,13 +12,13 @@ public class marix90rotation1886 {
         boolean res = true;
         for(int i =0; i<4; i++){
         res = (mat.length != target.length || mat[0].length != target.length) ? false : res;
-        break;
+        // break;
 
-        // for(int k =0; k<mat.length; k++){
-        // for(int j=0; j<mat[i].length; j++){
-        //           System.out.println();
-        //     }
-        //     }
+        for(int k =0; k<mat.length; k++){
+        for(int j=0; j<mat[i].length; j++){
+                  System.out.println();
+            }
+            }
         }
         
     return res;
