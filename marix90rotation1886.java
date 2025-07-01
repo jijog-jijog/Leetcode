@@ -12,7 +12,7 @@ public class marix90rotation1886 {
 
         for(int i =0; i<mat.length; i++){
             for(int j=0; j<target.length; j++){
-                  mat
+                  
         //        if ( mat[i][j] != target[i][j]) return false;
             }
         }
