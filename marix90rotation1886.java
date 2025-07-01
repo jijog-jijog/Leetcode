@@ -9,12 +9,13 @@ public class marix90rotation1886 {
         
         if (mat.length != target.length || mat[0].length != target.length) return false;
 
-        
-        // for(int i =0; i<mat.length; i++){
-        //     for(int j=0; j<target.length; j++){
+
+        for(int i =0; i<mat.length; i++){
+            for(int j=0; j<target.length; j++){
+                
         //        if ( mat[i][j] != target[i][j]) return false;
-        //     }
-        // }
+            }
+        }
         
     return true;
         
