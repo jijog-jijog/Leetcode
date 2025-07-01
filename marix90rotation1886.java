@@ -6,9 +6,8 @@ public class marix90rotation1886 {
         System.out.println(result); 
         }
         public static boolean check(int[][] mat , int [][]target){
-        
+        int n = mat.length;
         if (mat.length != target.length || mat[0].length != target.length) return false;
-
 
         for(int i =0; i<mat.length; i++){
             for(int j=0; j<target.length; j++){
