@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class marix90rotation1886 {
     public static void main(String[] args) {
         int [][] mat = {{1,0},{1,0}};
@@ -6,6 +8,9 @@ public class marix90rotation1886 {
         
         boolean result = check(mat, target,flip);
         System.out.println(result); 
+        for(int a[] : flip){
+            System.out.println(Arrays.toString(a));
+        }
         }
         public static boolean check(int[][] mat , int [][]flip , int[][]target){
         int n = mat.length;
