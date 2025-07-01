@@ -7,7 +7,7 @@ public class maxpopulationyr1854 {
 
         for (int i = 0; i < logs.length; i++) {
             int birth = logs[i][0];
-            int death = logs[i][1] - 1;  // exclude the death year
+            int death  = logs[i][1] - 1;  // exclude the death year
 
             System.out.println( birth);
              System.out.println(death);
