@@ -1,10 +1,10 @@
 public class marix90rotation1886 {
     public static void main(String[] args) {
-        int [][] mat = {{1},{1,0}};
+        int [][] mat = {{1,0},{1,0}};
         int [][] target = {{0,1},{1,0}};
         int[][] flip = new int[mat.length][mat.length];
         
-        boolean result = check(mat, target, target);
+        boolean result = check(mat, target,flip);
         System.out.println(result); 
         }
         public static boolean check(int[][] mat , int [][]flip , int[][]target){
@@ -14,11 +14,11 @@ public class marix90rotation1886 {
         res = (mat.length != target.length || mat[0].length != target.length) ? false : res;
         // break;
 
-        // for(int k =0; k<n; k++){
-        // for(int j=0; j<mat[i].length; j++){
-                 
-        //     }
-        //     }
+        for(int k =0; k<n; k++){
+        for(int j=0; j<mat[i].length; j++){
+                 flip[j][n - 1 -i] = mat[i][j];
+            }
+            }
         }
         
     return res;
