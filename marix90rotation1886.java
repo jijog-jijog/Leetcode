@@ -36,9 +36,8 @@ public class marix90rotation1886 {
                         }
                     flip = mat;
                     //   return false;  
-
-                    }else{
-                        return false;  
+                    // }else{
+                    //     return false;  
                         
                     }
                 }
@@ -47,7 +46,7 @@ public class marix90rotation1886 {
              
         }
        
-    return true;
+    return false;
     
     }
         
