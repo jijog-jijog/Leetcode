@@ -15,7 +15,11 @@ public class luckynumbermatrix {
                     }
                 }
             }
-            for(int i=0; i<)
+            for(int l=0; l<set.length; l++){
+                for(int m=0; m<set[l].length; m++){
+                    
+                }
+            }
         }
     }
 }
