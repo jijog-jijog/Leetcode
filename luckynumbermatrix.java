@@ -1,12 +1,8 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class luckynumbermatrix {
     public static void main(String[] args) {
-        List<Integer> ans = new ArrayList<>();
         int[][] set = {{1,10,4,2},
                        {9,3,8,7},
-                       {15,16,17,1}};
+                       {15,16,17,12}};
         for(int i=0; i<set.length; i++){
 
             int min =set[i][0];
@@ -25,12 +21,11 @@ public class luckynumbermatrix {
                 }
                 }
             if (val == true) {
-                 ans.add(min);
+                System.out.println(min);
+               
+            
             }
             }
-        for(int a : ans){
-            System.out.println(a);
-        }
         }
     }
 
