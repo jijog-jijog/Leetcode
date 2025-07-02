@@ -5,5 +5,8 @@ public class twosum {
         int [] res = new int[nums.length];
         int target = 9;
         
+        for(int i=0; i<nums.length; i++){
+           
+        }
     }
 }
