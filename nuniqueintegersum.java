@@ -3,10 +3,6 @@ public class nuniqueintegersum {
         int n = 5;
         int[] set = new int[n];
         for(int i=0; i<n; i++){
-            for(int j=n/2+1; j<n; j++){
-                set[i] = i+2;
-                set[j] = j-10;
-            }
         }
     for(int a : set){
         System.out.println(a);
