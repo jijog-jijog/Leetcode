@@ -14,6 +14,7 @@ public class twosum {
             if (nums[i]+nums[j] == target) {
                   set.add(i);
                   set.add(j);
+                  break;
                 }
            }
         }
