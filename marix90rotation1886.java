@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class marix90rotation1886 {
     public static void main(String[] args) {
-        int[][] mat = { { 1,1 }, { 1, 0 } };
+        int[][] mat = { { 1,0 }, { 1, 0 } };
         int[][] target = { { 0, 1 }, { 1, 0 } };
         int[][] flip = new int[mat.length][mat.length];
 
@@ -28,17 +28,18 @@ public class marix90rotation1886 {
              for(int x= 0; x<mat.length; x++){
                 for(int y=0; y<mat[x].length; y++){
 
-                    if (mat[x][y] == target[x][y]) {
-                      return true;  
-
-                    }else{
-
+                    if (mat[x][y] != target[x][y]) {
                          for(int k =0; k<n; k++){
                          for(int j=0; j<mat[k].length; j++){
                          flip[j][n - 1 -k] = mat[k][j];
                          }
                         }
                     flip = mat;
+                    //   return false;  
+
+                    }else{
+                        return false;  
+                        
                     }
                 }
             }
