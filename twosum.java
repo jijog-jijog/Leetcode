@@ -4,7 +4,6 @@ public class twosum {
         int [] nums = {2,7,11,15};
         int [] res = new int[nums.length];
         int target = 9;
-
-
+        
     }
 }
