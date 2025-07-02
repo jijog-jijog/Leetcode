@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class twosum {
     public static void main(String[] args) {
         
@@ -13,5 +15,8 @@ public class twosum {
                 }
            }
         }
+    for(int a : res){
+        System.out.println(a);
+    }
     }
 }
