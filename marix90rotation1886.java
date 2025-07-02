@@ -6,15 +6,13 @@ public class marix90rotation1886 {
         int[][] target = { { 1,0 }, { 0,1} };
         int[][] flip = new int[mat.length][mat.length];
 
-        boolean result = check(mat,target,flip){
-            System.out.println(result);
-        }
+        boolean result = check(mat, target, flip);
+        System.out.println(result);
+    }
 
-        public static boolean check(int[][] mat, int[][] target, int[][] flip){
+    public static boolean check(int[][] mat, int[][] target, int[][] flip){
 
-        }
-        
-
+        return false;
     }
 
 }
