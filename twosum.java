@@ -15,6 +15,7 @@ public class twosum {
                   set.add(i);
                   set.add(j);
                   break;
+                  
                 }
            }
         }
