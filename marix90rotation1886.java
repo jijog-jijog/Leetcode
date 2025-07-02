@@ -16,8 +16,11 @@ public class marix90rotation1886 {
         int n = mat.length;
         boolean res = true;
         for(int i =0; i<4; i++){
+
             for(int x= 0; x<mat.length; x++){
-                for(int y=0; y<mat[x].length; y++)
+                for(int y=0; y<mat[x].length; y++){
+                    
+                }
             }
 
         if (mat.length != target.length || mat[0].length != target.length) {
@@ -27,8 +30,8 @@ public class marix90rotation1886 {
                 res = true;
 
         for(int k =0; k<n; k++){
-        for(int j=0; j<mat[i].length; j++){
-        flip[j][n - 1 -i] = mat[i][j];
+        for(int j=0; j<mat[k].length; j++){
+        flip[j][n - 1 -k] = mat[k][j];
         flip = mat;
             }
             }
