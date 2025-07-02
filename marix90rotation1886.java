@@ -18,15 +18,17 @@ public class marix90rotation1886 {
         for(int i =0; i<4; i++){
         if (mat.length != target.length || mat[0].length != target.length) {
             res = false;
-             }
-            // break;
+            break;
+            }else{
+                res = true;
 
         for(int k =0; k<n; k++){
         for(int j=0; j<mat[i].length; j++){
-                 flip[j][n - 1 -i] = mat[i][j];
+        flip[j][n - 1 -i] = mat[i][j];
+        flip = mat;
             }
             }
-       
+        }
         
     }
     return res;         
