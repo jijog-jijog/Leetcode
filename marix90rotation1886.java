@@ -26,7 +26,11 @@ public class marix90rotation1886 {
                         break;
                     }
                     }
+                if (res) {
+                    return true;
                 }
+                }
+                
             }
 
         return false;
