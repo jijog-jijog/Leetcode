@@ -22,6 +22,9 @@ public class luckynumbermatrix {
                     break;
                 }
                 }
+            if (val) {
+                System.out.println(min);
+            }
             }
         }
     }
