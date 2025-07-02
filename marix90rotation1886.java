@@ -33,16 +33,14 @@ public class marix90rotation1886 {
                          for(int k =0; k<n; k++){
                          for(int j=0; j<mat[k].length; j++){
                          flip[j][n - 1 -k] = mat[k][j];
-                         break;
+                         
                          }
                         }                    
-                    }else{
-                        return true;
                     }
                 }
             }
              for(int a=0;a<mat.length; a++){
-                for(int b=0; b<mat[i].length; b++){
+                for(int b=0; b<mat[a].length; b++){
                     mat[a][b] = flip[a][b];
                     
                 }
