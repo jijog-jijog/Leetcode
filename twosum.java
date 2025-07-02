@@ -5,7 +5,7 @@ import java.util.List;
 public class twosum {
     public static void main(String[] args) {
         
-        int [] nums = {2,7,11,15};
+        int [] nums = {3,2,4};
         List <Integer> set = new ArrayList<>();
         int target = 9;
         
