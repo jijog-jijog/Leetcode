@@ -7,7 +7,7 @@ public class twosum {
         
         int [] nums = {3,2,4};
         List <Integer> set = new ArrayList<>();
-        int target = 9;
+        int target = 6;
         
         for(int i=0; i<nums.length; i++){
            for(int j=i+1; j<nums.length; j++){
