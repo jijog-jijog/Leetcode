@@ -30,7 +30,12 @@ public class marix90rotation1886 {
                     return true;
                 }
                 }
-                
+
+                for(int c=0; c<n; c++){
+                    for(int d=0; d<mat[i].length; d++){
+                        
+                    }
+                }
             }
 
         return false;
