@@ -15,9 +15,12 @@ public class luckynumbermatrix {
                     }
                 }
             }
+            boolean val = true;
             for(int l=0; l<set.length; l++){
-                for(int m=0; m<set[l].length; m++){
-                    
+                if (min > set[l][col]) {
+                    val = false;
+                    break;
+                }
                 }
             }
         }
