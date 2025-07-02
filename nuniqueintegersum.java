@@ -5,7 +5,7 @@ public class nuniqueintegersum {
         for(int i=0; i<n; i++){
             for(int j=n/2+1; j<n; j++){
                 set[i] = i+2;
-                set[j] = j-4;
+                set[j] = j-10;
             }
         }
     for(int a : set){
