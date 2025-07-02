@@ -14,7 +14,7 @@ public class marix90rotation1886 {
     
     
         }
-        public static boolean check(int[][] mat , int [][]flip , int[][]target){
+        public static boolean check(int[][] mat , int [][]target , int[][]flip){
         int n = mat.length;
         boolean res = true;
 
