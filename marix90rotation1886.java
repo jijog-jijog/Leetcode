@@ -34,10 +34,9 @@ public class marix90rotation1886 {
                          flip[j][n - 1 -k] = mat[k][j];
                          }
                         }
-                    flip = mat;
-                    //   return false;  
-                    // }else{
-                    //     return false;  
+                    
+                    
+                   
                         
                     }
                 }
