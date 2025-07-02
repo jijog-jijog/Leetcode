@@ -29,7 +29,7 @@ public class marix90rotation1886 {
                 for(int y=0; y<mat[x].length; y++){
 
                     if (mat[x][y] == target[x][y]) {
-                        // return true;
+                      return true;  
 
                     }else{
 
