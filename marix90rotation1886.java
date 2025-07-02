@@ -49,7 +49,7 @@ public class marix90rotation1886 {
              
         }
        
-    return false;
+    return true;
     
     }
         
