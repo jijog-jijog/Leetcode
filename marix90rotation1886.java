@@ -32,7 +32,8 @@ public class marix90rotation1886 {
                     if (mat[x][y] != target[x][y]) {
                         isEqual = false;
                         break;
-                    }
+                    } 
+                    
                 }
                 if (!isEqual) break;
             }
