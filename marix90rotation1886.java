@@ -16,7 +16,7 @@ public class marix90rotation1886 {
         public static boolean check(int[][] mat, int[][] target, int[][] flip){
             boolean len = true;
             len = (mat.length != target.length || mat[0].length != target[0].length) ? false : len;{
-               //if return false//
+               //if return false add//
             }
 
         int n = mat.length;    
