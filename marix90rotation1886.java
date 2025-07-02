@@ -44,7 +44,7 @@ public class marix90rotation1886 {
              for(int a=0;a<mat.length; a++){
                 for(int b=0; b<mat[i].length; b++){
                     mat[a][b] = flip[a][b];
-
+                    
                 }
              }
         
