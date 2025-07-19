@@ -21,7 +21,6 @@ public class rotatearray {
                      k++;
                      l++;
                 }
-
                
             }
         }
