@@ -20,8 +20,7 @@ public class rotatearray {
                      arr[k] = nums[l];
                      k++;
                      l++;
-                }
-               
+                }             
             }
         }
 
