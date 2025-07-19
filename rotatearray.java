@@ -14,7 +14,7 @@ public class rotatearray {
                 
                 arr[i] = nums[nums.length-i-1];
                 i++;
-                k--;
+                 k--;
             }else{
 
                 if(l<=k && k<=k*2){
