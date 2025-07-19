@@ -21,11 +21,9 @@ public class rotatearray {
                      arr[k] = nums[l];
                      k++;
                      l++;
-                     
+
                 }             
             }
-        }
-
         System.out.println(Arrays.toString(arr));
     }
 }
