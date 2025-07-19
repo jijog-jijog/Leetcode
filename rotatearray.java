@@ -13,7 +13,7 @@ public class rotatearray {
             if (k > 0) {
                 
                 arr[i] = nums[nums.length-i-1];
-                i++;
+                 i++;
                  k--;
             }else{
 
