@@ -11,7 +11,6 @@ public class rotatearray {
 
         while (k > 0) {
             if (k > 0) {
-                
                 arr[i] = nums[nums.length-i-1];
                  i++;
                  k--;
