@@ -15,8 +15,9 @@ public class rotatearray {
                  i++;
                  k--;
             }else{
-                
+
                 if(l<=k && k<=k*2){
+                    
                      arr[k] = nums[l];
                      k++;
                      l++;
