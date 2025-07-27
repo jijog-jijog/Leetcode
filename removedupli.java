@@ -18,9 +18,10 @@ class removedupli{
                 i++;
 
                 nums[i] = nums[j];
-                
+
 
             }
+            
         }
         System.out.println(Arrays.toString(Arrays.copyOfRange(nums, 0, i+1)));
         
