@@ -1,23 +1,24 @@
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
+
+
+
+
 
 class removedupli{
     public static void main(String[] args) {
         // int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        int[] nums = {1,1,2};
-        List<Integer> arr = new ArrayList<>();
+        int[] nums = {0,0,1,1,1,2,2,3,3,4,4,4,4,5};
         
-       int i =0;
-       while (i<nums.length-1) {
-        
-        if (nums[i+1] < nums.length-1  && nums[i] != nums[i+1]) {
-            arr.add(nums[i]);
-            i++;
-        }else{
-            i= i+2;
+        int i =0;
+
+        for(int j=1; j<nums.length; j++){
+            if (nums[i] != nums[j]) {
+                i++;
+                nums[i] = nums[j];
+            }
         }
-       }
-       System.out.println(arr.toString());
+        System.out.println(Arrays.toString(Arrays.copyOfRange(nums, 0, i+1)));
+        
     }
 }
