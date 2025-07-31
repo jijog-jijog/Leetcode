@@ -7,7 +7,6 @@ public class rich {
         for(int[] a : nums){
 
             for(int b : a){
-
                   System.out.println(b);
             
          }
