@@ -9,7 +9,7 @@ public class rich {
             for(int b : a){
 
                   System.out.println(b);
-                  
+            
          }
           
         }
