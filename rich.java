@@ -3,8 +3,7 @@ public class rich {
 
         int[][] nums = {{1,2,3},{3,2,1}};   
         for(int[] a : nums){
-            for(int b : a){
-                
+            for(int b : a){ 
                   System.out.println(b);
             
          }   
