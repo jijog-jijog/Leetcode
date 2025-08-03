@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class Richestcustomer {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {      
         int [] [] accounts = {{1,3,5,6,8,2,9},{4,9,7,5,3},{3,4,9,7,6}};
 
         int maxval = 0;
