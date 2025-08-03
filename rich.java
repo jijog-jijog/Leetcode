@@ -1,4 +1,3 @@
-
 public class rich {
     public static void main(String[] args) {
 
