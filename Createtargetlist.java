@@ -12,7 +12,6 @@ public class Createtargetlist {
         for(int i =0; i<nums.length; i++){
             arr[i] = list.get(i);
         }
-
     for(int ar : arr){
         System.out.println(ar);
     }    
