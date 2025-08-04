@@ -15,6 +15,5 @@ public class Createtargetlist {
     for(int ar : arr){
         System.out.println(ar);
     }    
-
     }
 }
