@@ -16,7 +16,6 @@ public class Shufflearray {
         for(int i =0; i<val1.length; i++){
             val1[i] = ans[i*2+1];
             // val2[i] = ans[i];
-
         }
         
         for(int arr : ans){
