@@ -2,7 +2,6 @@ public class Shufflearray {
     public static void main(String[] args) {
 
         //code is wrong
-        
         int [] nums = {1,2,3,4,5,6};
         int [] val1 = new int[nums.length/2];
         int [] val2 = new int[nums.length/2];
