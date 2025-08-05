@@ -9,7 +9,6 @@ public class Shufflearray {
         for(int i = 0; i< nums.length/2; i++){
                val1[i] = nums[i];
         }
-       
         for(int j = nums.length/2; j<nums.length; j++ ){
             val2[j] = nums[j];
         }
