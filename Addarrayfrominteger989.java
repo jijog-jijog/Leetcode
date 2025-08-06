@@ -5,6 +5,7 @@ public class Addarrayfrominteger989 {
         int k = 34;
         int count = 0;
         for(int a : num){
+            
             count = count + a;
         }
         int result = count+k;
