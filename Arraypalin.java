@@ -12,10 +12,7 @@ public class Arraypalin {
             System.out.print(val);
           }
          
-        // Removed invalid method declaration
-
-        // for (int i = 0; i < nums.length; i++) {
-           
+     
         //     System.out.println((ans[i]));
             // return (ans[i]);
             
