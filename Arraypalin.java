@@ -13,7 +13,7 @@ public class Arraypalin {
           }
          
      
-        //     System.out.println((ans[i]));
+       
             // return (ans[i]);
             
         }
