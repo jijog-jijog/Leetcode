@@ -4,7 +4,7 @@ public class Diagonalsummatrix {
                         {4,5,6},
                         {7,8,9}};
     
-        
+    
         int sum1 = 0;
         int sum2 = 0;
         int n = mat.length;
